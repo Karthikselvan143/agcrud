@@ -1,0 +1,64 @@
+/* App.css */
+
+/* Gradient background for the app */
+.app-container {
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Styling for Add Row button */
+.add-row-button {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.add-row-button:hover {
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+}
+
+/* Styling for the grid container */
+.grid-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Styling for the ag-grid rows to ensure visibility */
+.ag-theme-alpine .ag-cell {
+  color: #333;
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* Styling for action buttons */
+.action-buttons button {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.action-buttons .edit-button {
+  background-color: #4caf50;
+}
+
+.action-buttons .delete-button {
+  background-color: #f44336;
+}
+
+.action-buttons button:hover {
+  opacity: 0.8;
+}
